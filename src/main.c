@@ -12,6 +12,6 @@ int main() {
   int x, y;
 
   scanf("%d %d\n", &x, &y);
-  printf("%d\n", x + 200);
+  printf("%d\n", x + 5);
   return 0;
 }
