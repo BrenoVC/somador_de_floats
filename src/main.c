@@ -123,8 +123,9 @@ int main() {
         char number[ind_number_found];
         for (int i=0; i<ind_number_found; i++) {
           number[i] = number_found[i];
+          float finter = atof(number_found);
         }
-        float fnumber = atof(number);
+        float fnumber = atof(number_found);
         floats_sum += fnumber;
         for (int i=0; i<100; i++) number_found[i] = '\0';
         ind_number_found = 0;
